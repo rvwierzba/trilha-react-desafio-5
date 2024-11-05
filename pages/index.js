@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Layout, { GradientBackground } from '../components/Layout';
 import ArrowIcon from '../components/ArrowIcon';
-import { getGlobalData } from '../utils/global-data';
+import { getGlobalData } from '../src/utils/global-data';
 import SEO from '../components/SEO';
 
 export default function Index({ posts, globalData }) {
